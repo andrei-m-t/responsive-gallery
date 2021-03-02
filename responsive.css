@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 80%;
-  max-width: 700px;
+  max-width: 810px;
   margin: 50px auto;
 }
 
@@ -61,6 +61,12 @@ h4 {
 
 .text p {
   line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 30px auto;
+  }
 }
 
 @media (max-width: 540px) {
